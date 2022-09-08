@@ -5,7 +5,7 @@
  * puts - print using puts function 
  * Return: returns zero
  *
- * /
+ */
 
 int main(void)
 {
