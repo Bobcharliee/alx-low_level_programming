@@ -1,9 +1,10 @@
 #include <stdio.h>
 
-/*
+/**
  *
- * program to print using puts function 
- * 
+ * puts - print using puts function 
+ * Return: returns zero
+ *
  * /
 
 int main(void)
