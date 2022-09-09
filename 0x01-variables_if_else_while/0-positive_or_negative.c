@@ -4,7 +4,9 @@
 /**
  * main - start of program
  * RETURN: returns zero
+ * @n: number variable
  */
+
 int main(void)
 {
 	int n;
