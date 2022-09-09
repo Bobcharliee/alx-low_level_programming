@@ -1,10 +1,10 @@
 #include <stdio.h>
-int main(void)
-{
 /**
  * main - program starts
  * Return: returns zero
  */
+int main(void)
+{
 	char c;
 	int j;
 	long int k;
