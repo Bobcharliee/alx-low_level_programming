@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
  * main - start of program
- * RETURN: returns zero
+ * Return: returns zero
  */
 int main(void)
 {
