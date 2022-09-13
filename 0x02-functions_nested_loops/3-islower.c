@@ -6,15 +6,16 @@
 int _islower(int c)
 {
 	char i;
+	bool a = false;
 
 	for (i = 'a'; i <= 'z'; i++)
 	{
 		if (c == i)
-			_putchar('1');
-		else
-		{
-			_putchar('0');
-		}
+			a = true;	
 	}
-	return (0);
+	if (a == false)
+		_putchar('0');
+	else
+		_putchar('1');
+	return (0);	
 }
