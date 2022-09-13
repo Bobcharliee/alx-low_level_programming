@@ -4,18 +4,15 @@
  */
 void print_alphabet_x10(void)
 {
-	char letters = 'a';
+	char letters;
 	int n;
-	
-	n = 0;
-	while (n < 10)
+
+	for (n = 0; n < 10; n++)
 	{
-		while (letters <= 'z')
+		for (letters = 'a'; letters <= 'z'; letters++)
 		{
 			_putchar(letters);
-			letters++;
 		}
 		_putchar('\n');
-		n++;
 	}
 }
