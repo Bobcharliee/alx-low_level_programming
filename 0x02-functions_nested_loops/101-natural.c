@@ -1,7 +1,6 @@
 #include "main.h"
 /**
  * main - entry
- * Description:  computes and prints the sum of all the multiples of 3 or 5 belo * w 1024 (excluded)
  * Return: always 0
  */
 int main(void)
