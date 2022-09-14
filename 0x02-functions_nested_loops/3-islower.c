@@ -17,7 +17,7 @@ int _islower(int c)
 		}
 		else if (c != i)
 		{
-			continue
+			continue;
 		}
 		_putchar('0');
 	}
