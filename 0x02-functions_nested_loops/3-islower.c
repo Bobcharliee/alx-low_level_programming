@@ -6,17 +6,17 @@
 int _islower(int c)
 {
 	char i;
-	char a[] = "false";
+	char a = '0';
 
 	for (i = 'a'; i <= 'z'; i++)
 	{
 		if (c == i)
 		{
-			a = true;
+			a = '1';
 			break;
 		}	
 	}
-	if (a == "false")
+	if (a == '0')
 		_putchar('0');
 	else
 		_putchar('1');
