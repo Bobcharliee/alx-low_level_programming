@@ -15,7 +15,7 @@ int _islower(int c)
 			_putchar ('1');
 			break;
 		}
-		else if (c != i && c == EOF)
+		else if (c != i && c == '\n')
 		{
 			_putchar('0');
 		}
