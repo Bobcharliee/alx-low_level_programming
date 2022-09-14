@@ -15,6 +15,10 @@ int _islower(int c)
 			_putchar ('1');
 			break;
 		}
+		else if (c != i)
+		{
+			continue
+		}
 		_putchar('0');
 	}
 	return (0);
