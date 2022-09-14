@@ -6,17 +6,7 @@
  */
 int _islower(int c)
 {
-	char i;
-
-	for (i = 'a'; i <= 'z'; i++)
-	{
-		if (c != i && c == '\n')
-		{
-			_putchar ('0');
-		}
-		else if (c != i)
-			continue;
-		_putchar('1');
-	}
+	if (c >= 97 && c <= 122)
+		return (1);
 	return (0);
 }
