@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_sign - start
- * @n - parameter
+ * @n: parameter
  * Return: returns 0
  */
 int print_sign(int n)
