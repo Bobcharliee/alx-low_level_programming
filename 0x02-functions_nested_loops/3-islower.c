@@ -2,6 +2,7 @@
 /**
  * _islower - a function that checks for lowercase character
  * Return: returns 1 if lower and 0 if otherwise
+ * @c: argument
  */
 int _islower(int c)
 {
@@ -9,11 +10,11 @@ int _islower(int c)
 
 	for (i = 'a'; i <= 'z'; i++)
 	{
-		if (c != i)
-			continue;
-		else
+		if (c == i)
+		{
 			return (1);
 			break;
+		}
 		return (0);
 	}	
 }
