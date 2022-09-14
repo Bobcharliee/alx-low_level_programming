@@ -5,7 +5,7 @@
  * @b: argument2
  * Return: returns sum
  */
-int add(int, int)
+int add(int a, int b)
 {
 	int sum = a + b;
 
