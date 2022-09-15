@@ -6,9 +6,9 @@
  */
 int _isupper(int c)
 {
-	if (c >= 48 && c <= 57)
-		_putchar('1');
+	if (c >= 65 && c <= 90)
+		_putchar(49);
 	else
-		_putchar('0');
+		_putchar(48);
 	return (0);
 }
