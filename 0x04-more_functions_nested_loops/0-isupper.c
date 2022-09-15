@@ -7,8 +7,6 @@
 int _isupper(int c)
 {
 	if (c >= 48 && c <= 57)
-		_putchar('1');
-	else
-		_putchar('0');
+		return(1);
 	return (0);
 }
