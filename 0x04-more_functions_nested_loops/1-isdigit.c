@@ -1,12 +1,12 @@
 #include "main.h"
 /**
  * _isdigit - start
- * @c: argument
+ * @value: argument
  * Return: always 0
  */
-int _isdigit(int c)
+int _isdigit(int value)
 {
-	if (c >= '0' && c <= '9')
+	if (value >= '0' && value <= '9')
 	{
 		return (1);
 	}
