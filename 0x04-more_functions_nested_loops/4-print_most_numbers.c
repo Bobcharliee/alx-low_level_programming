@@ -1,16 +1,18 @@
 #include "main.c"
 
 /**
- * print_numbers - start
+ * print_most_numbers - start
  */
-void print_numbers(void)
+void print_most_numbers(void)
 {
-	int i = 0;
+	int i;
 
-	while (i <= 9)
+	for (i = 0; i <= 9; i++)
 	{
-		_putchar('0' + i);
-		i++;
+		if ((i != 2) && (i != 4))
+		{
+			_putchar('0' + i);
+		}
 	}
 	_putchar('\n');
 }

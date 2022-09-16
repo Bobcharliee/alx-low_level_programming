@@ -1,5 +1,4 @@
 #include "main.c"
-
 /**
  * print_numbers - start
  */
