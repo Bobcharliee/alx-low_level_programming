@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 /**
  * print_diagonal - start
  * @n: argument
@@ -13,7 +13,7 @@ void print_diagonal(int n)
 	{
 		for (column = 0; column < n; column++)
 		{
-			i = column + 1;
+			i = column - i;
 
 			for (space = 0; space <= i; space++)
 				_putchar(' ');

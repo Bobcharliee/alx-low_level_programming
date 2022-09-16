@@ -19,5 +19,5 @@ int main(void)
 			divisor++;
 	}
 	printf("%lu\n", num);
-	return (0)
+	return (0);
 }
